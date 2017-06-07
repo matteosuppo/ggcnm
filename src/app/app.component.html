@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div class="deck">
+  <div class="card" *ngFor="let card of common">
+    <div class="title">{{ card.title }}</div>
+    <div class="img">
+      <img src="assets/{{card.title}}.jpg">
+    </div>
+    <div class="type">{{ card.type }}</div>
+    <div class="rules">
+      {{ card.rules }}
+    </div>
+    <div class="flavour">
+      {{ card.flavour }}
+    </div>
+  </div>
+</div>
