@@ -79,6 +79,44 @@ export class AppComponent {
     },
     {
       title: ''
-    },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+    },
+    {
+      title: ''
+    }
   ];
+
+  rare = [
+    {
+      title: 'Cassiopei',
+      type: 'gattini orfani'
+    }
+  ];
+
+  unique = [
+    {
+      title: 'Zuko',
+      type: 'gatto lungo',
+    },
+    {
+      title: 'Morgana',
+      type: 'gatta bassa'
+    },
+    {
+      title: 'Azula',
+      type: 'gatto bianco occhi blu'
+    },
+    {
+      title: 'Broccolo',
+      type: 'verdura gelosa'
+    },
+    {
+      title: 'Fragola',
+      type: 'verdura flirtosa'
+    },
+    {
+      title: 'Alce',
+      type: 'renna carina'
+    }
+  ];
+
 }
